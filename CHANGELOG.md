@@ -1,3 +1,17 @@
+# [1.3.0](https://github.com/neopromic/loop-cart/compare/v1.2.0...v1.3.0) (2024-11-01)
+
+
+### Features
+
+* :fire: remove the old template base from authenticated routes ([ea355fd](https://github.com/neopromic/loop-cart/commit/ea355fdba5be6f749dea5dcaf4a16af2334dadaf))
+* :sparkles: add images pattern to allow images from github ([126729f](https://github.com/neopromic/loop-cart/commit/126729fe6c1650164ffb4aace263584390a694b3))
+* :sparkles: add shadcn ui card ([ce6c3d5](https://github.com/neopromic/loop-cart/commit/ce6c3d5eead8a102381a2540f003606cc9f99410))
+* :sparkles: create product card component ([be57a0d](https://github.com/neopromic/loop-cart/commit/be57a0d20a60c3c86baf5921517d89b3e9f6a0cb))
+* :sparkles: update the strings traduction on pt-br ([a9dc4d9](https://github.com/neopromic/loop-cart/commit/a9dc4d90a2594697ed478025e76258ce4931ac36))
+* add product card and hero ([1a99a3e](https://github.com/neopromic/loop-cart/commit/1a99a3e46db340c2344f2f9beafd0f61d06ecb01))
+* add the Hero layout - needs rename it to hero ([0b3c75c](https://github.com/neopromic/loop-cart/commit/0b3c75ceacafddbc1572c030ebd9a0013646fdb5))
+* **globals css:** add a new class to product card ([f24cf37](https://github.com/neopromic/loop-cart/commit/f24cf37ff5ecebf1a951c46ff32e90a8c26293d2))
+
 # [1.2.0](https://github.com/neopromic/loop-cart/compare/v1.1.0...v1.2.0) (2024-11-01)
 
 
