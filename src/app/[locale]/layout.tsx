@@ -30,6 +30,9 @@ export const metadata: Metadata = {
       url: '/favicon.ico',
     },
   ],
+  verification: {
+    google: 'BdQcQyV9Tsqw5LtifWX2erZRG-4I0qx5226M2KnhLfA',
+  },
 };
 
 export function generateStaticParams() {
