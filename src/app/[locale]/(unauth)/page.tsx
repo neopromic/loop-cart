@@ -19,9 +19,9 @@ const Index = (props: { params: { locale: string } }) => {
 
   return (
     <>
-      <h1>{t('meta_title')}</h1>
-      <p>{t('meta_description')}</p>
-
+      <div>
+        <h1>{t('hero_title')}</h1>
+      </div>
     </>
   );
 };
