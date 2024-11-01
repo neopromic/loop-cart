@@ -1,3 +1,23 @@
+# [1.2.0](https://github.com/neopromic/loop-cart/compare/v1.1.0...v1.2.0) (2024-11-01)
+
+
+### Features
+
+* :fire: delete Demobanner ([09c2395](https://github.com/neopromic/loop-cart/commit/09c23957c856c55cf184f6fffb43103f86f08f47))
+* :fire: remove fr lang from project ([8a6bb8b](https://github.com/neopromic/loop-cart/commit/8a6bb8b2aa5713c1619e0e63e97a9d753a162dc4))
+* :sparkles: add shadcn ui ([a161427](https://github.com/neopromic/loop-cart/commit/a16142748326475e4f6e23f0302b7a9b9898e433))
+* add a new Header ([7e4a5b0](https://github.com/neopromic/loop-cart/commit/7e4a5b0b85da55f957032e381e8b63d00e30dce4))
+* add lib cn from shadcn ([fe02e5b](https://github.com/neopromic/loop-cart/commit/fe02e5ba08dcf2a7242f61bcf8e3b560cfe5d248))
+* add pt-br locale ([8c06c7d](https://github.com/neopromic/loop-cart/commit/8c06c7d892ea9ea86066eab99a38dad167562e6b))
+* add shadcn ui button ([462aa57](https://github.com/neopromic/loop-cart/commit/462aa571ea2a2bb6e37a6cb3c62b5b44743b43f3))
+* change the default locale to pt-br ([221fa08](https://github.com/neopromic/loop-cart/commit/221fa086bf94520338cf04da35e1f8cd4fab423c))
+* change the text from badge ([7fb09ac](https://github.com/neopromic/loop-cart/commit/7fb09ac8bb211abec90df698a43fa924297f3ff9))
+* removed BaseTemplate component ([82fef26](https://github.com/neopromic/loop-cart/commit/82fef26b8f0bac7214c262af0dd61da81a5af3ce))
+* removed demo layout ([710c9ef](https://github.com/neopromic/loop-cart/commit/710c9efeacb26fc0b613ed616012fa2c644b046c))
+* removed demo page layout ([d1e5f76](https://github.com/neopromic/loop-cart/commit/d1e5f762284b61b608b5ceac7faa50b242e58aa9))
+* update lang en and add remove fr from config ([f341620](https://github.com/neopromic/loop-cart/commit/f341620d71e1de90697605efeb5535ce0ec3db69))
+* update the lang switcher ui ([069cd74](https://github.com/neopromic/loop-cart/commit/069cd74ef58176b6d39d919f8521663ecf7c73fd))
+
 # [1.1.0](https://github.com/neopromic/loop-cart/compare/v1.0.0...v1.1.0) (2024-11-01)
 
 
