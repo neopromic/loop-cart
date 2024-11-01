@@ -1,12 +1,17 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import type { ChangeEventHandler } from 'react';
+import type { ChangeEventHandler, SelectHTMLAttributes } from 'react';
 
+import { cn } from '@/lib/utils';
 import { usePathname, useRouter } from '@/libs/i18nNavigation';
 import { AppConfig } from '@/utils/AppConfig';
 
-export const LocaleSwitcher = () => {
+type LocaleSwitcherProps = {
+  className?: string;
+} & SelectHTMLAttributes<HTMLSelectElement>;
+
+export const LocaleSwitcher = ({ className }: LocaleSwitcherProps) => {
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
@@ -20,7 +25,7 @@ export const LocaleSwitcher = () => {
     <select
       defaultValue={locale}
       onChange={handleChange}
-      className="border border-gray-300 font-medium focus:outline-none focus-visible:ring"
+      className={cn('bg-transparent focus-visible:ring font-medium size-full focus:outline-none', className)}
       aria-label="lang-switcher"
     >
       {AppConfig.locales.map(elt => (
