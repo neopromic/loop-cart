@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/neopromic/loop-cart/compare/v1.0.0...v1.1.0) (2024-11-01)
+
+
+### Features
+
+* remove FUNDING yml ([f6a8e11](https://github.com/neopromic/loop-cart/commit/f6a8e11eb4b0837b5c469f91a166715bc97b462f))
+
 # 1.0.0 (2024-11-01)
 
 
