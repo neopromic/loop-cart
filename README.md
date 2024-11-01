@@ -42,7 +42,6 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🗺️ Sitemap.xml and robots.txt
 - ⌘ Database exploration with Drizzle Studio and CLI migration tool with Drizzle Kit
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-- 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
 
 Built-in feature from Next.js:
@@ -50,17 +49,6 @@ Built-in feature from Next.js:
 - ☕ Minify HTML & CSS
 - 💨 Live reload
 - ✅ Cache busting
-
-### Philosophy
-
-- Nothing is hidden from you, allowing you to make any necessary adjustments to suit your requirements and preferences.
-- Dependencies are regularly updated on a monthly basis
-- Start for free without upfront costs
-- Easy to customize
-- Minimal code
-- Unstyled template
-- SEO-friendly
-- 🚀 Production-ready
 
 ### Requirements
 
@@ -71,8 +59,8 @@ Built-in feature from Next.js:
 Run the following command on your local environment:
 
 ```shell
-git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
-cd my-project-name
+git clone --depth=1 https://github.com/neopromic/loop-cart.git
+cd loop-cart
 npm install
 ```
 
@@ -127,7 +115,6 @@ After defining the environment variables in your GitHub Actions, your localizati
 │   ├── locales                     # Locales folder (i18n messages)
 │   ├── models                      # Database models
 │   ├── styles                      # Styles folder
-│   ├── templates                   # Templates folder
 │   ├── types                       # Type definitions
 │   ├── utils                       # Utilities folder
 │   └── validations                 # Validation schemas
@@ -137,18 +124,6 @@ After defining the environment variables in your GitHub Actions, your localizati
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
-
-### Customization
-
-You can easily configure Next js Boilerplate by searching the entire project for `FIXME:` to make quick customizations. Here are some of the most important files to customize:
-
-- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon
-- `src/utils/AppConfig.ts`: configuration file
-- `src/templates/BaseTemplate.tsx`: default theme
-- `next.config.mjs`: Next.js configuration
-- `.env`: default environment variables
-
-You have full access to the source code for further customization. The provided code is just an example to help you start your project. The sky's the limit 🚀.
 
 ### Change database schema
 
@@ -223,7 +198,7 @@ Then, you can generate a production build with:
 $ npm run build
 ```
 
-It generates an optimized production build of the boilerplate. To test the generated build, run:
+It generates an optimized production build of the project. To test the generated build, run:
 
 ```shell
 $ npm run start
@@ -235,13 +210,13 @@ This command starts a local server using the production build. You can now open 
 
 ### Error Monitoring
 
-The project uses [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) to monitor errors. In the development environment, no additional setup is needed: Next.js Boilerplate is pre-configured to use Sentry and Spotlight (Sentry for Development). All errors will automatically be sent to your local Spotlight instance, allowing you to experience Sentry locally.
+The project uses [Sentry](https://sentry.io/) to monitor errors. In the development environment, no additional setup is needed: All errors will automatically be sent to your local Spotlight instance, allowing you to experience Sentry locally.
 
 For production environment, you'll need to create a Sentry account and a new project. Then, in `next.config.mjs`, you need to update the `org` and `project` attributes in `withSentryConfig` function. Additionally, add your Sentry DSN to `sentry.client.config.ts`, `sentry.edge.config.ts` and `sentry.server.config.ts`.
 
 ### Code coverage
 
-Next.js Boilerplate relies on [Codecov](https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) for code coverage reporting solution. To enable Codecov, create a Codecov account and connect it to your GitHub account. Your repositories should appear on your Codecov dashboard. Select the desired repository and copy the token. In GitHub Actions, define the `CODECOV_TOKEN` environment variable and paste the token.
+LoopCart relies on [Codecov](https://about.codecov.io/) for code coverage reporting solution. To enable Codecov, create a Codecov account and connect it to your GitHub account. Your repositories should appear on your Codecov dashboard. Select the desired repository and copy the token. In GitHub Actions, define the `CODECOV_TOKEN` environment variable and paste the token.
 
 Make sure to create `CODECOV_TOKEN` as a GitHub Actions secret, do not paste it directly into your source code.
 
@@ -249,7 +224,7 @@ Make sure to create `CODECOV_TOKEN` as a GitHub Actions secret, do not paste it 
 
 The project uses Pino.js for logging. In the development environment, logs are displayed in the console by default.
 
-For production, the project is already integrated with [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) to manage and query your logs using SQL. To use Better Stack, you need to create a [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) account and create a new source: go to your Better Stack Logs Dashboard > Sources > Connect source. Then, you need to give a name to your source and select Node.js as the platform.
+For production, the project is already integrated with [Better Stack](https://betterstack.com/) to manage and query your logs using SQL. To use Better Stack, you need to create a [Better Stack](https://betterstack.com/) account and create a new source: go to your Better Stack Logs Dashboard > Sources > Connect source. Then, you need to give a name to your source and select Node.js as the platform.
 
 After creating the source, you will be able to view and copy your source token. In your environment variables, paste the token into the `LOGTAIL_SOURCE_TOKEN` variable. Now, all logs will automatically be sent to and ingested by Better Stack.
 
@@ -265,7 +240,7 @@ To complete the setup, update the `checkly.config.ts` file with your own email a
 
 #### Bundle Analyzer
 
-Next.js Boilerplate includes a built-in bundle analyzer. It can be used to analyze the size of your JavaScript bundles. To begin, run the following command:
+LoopCart includes a built-in bundle analyzer. It can be used to analyze the size of your JavaScript bundles. To begin, run the following command:
 
 ```shell
 npm run build-stats
