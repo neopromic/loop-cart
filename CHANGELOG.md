@@ -1,3 +1,10 @@
+# 1.0.0 (2024-11-01)
+
+
+### Features
+
+* add personal data about project ([88edcc7](https://github.com/neopromic/loop-cart/commit/88edcc73fded8d7dce32e694d343b2f448631f2f))
+
 ## [3.58.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.58.1...v3.58.2) (2024-10-17)
 
 

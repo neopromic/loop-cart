@@ -1,6 +1,6 @@
 {
   "name": "loop-cart",
-  "version": "3.58.2",
+  "version": "1.0.0",
   "author": "Neopromic (https://github.com/neopromic)",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
