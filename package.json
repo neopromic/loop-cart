@@ -1,7 +1,7 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "loop-cart",
   "version": "3.58.2",
-  "author": "Ixartz (https://github.com/ixartz)",
+  "author": "Neopromic (https://github.com/neopromic)",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
     "dev:next": "next dev",
