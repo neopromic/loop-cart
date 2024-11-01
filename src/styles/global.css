@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.productCardContainer {
+  @apply border size-48 bg-black;
+}
