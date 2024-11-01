@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/neopromic/loop-cart/compare/v1.3.0...v1.4.0) (2024-11-01)
+
+
+### Features
+
+* :mag: add google verification ([55bdf90](https://github.com/neopromic/loop-cart/commit/55bdf90ade42b7fa65a234a5194f76a3748a1a29))
+
 # [1.3.0](https://github.com/neopromic/loop-cart/compare/v1.2.0...v1.3.0) (2024-11-01)
 
 
