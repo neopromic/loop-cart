@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/neopromic/loop-cart/compare/v1.5.0...v1.6.0) (2024-11-02)
+
+
+### Features
+
+* :sparkles: improve the card product component ([8a5b757](https://github.com/neopromic/loop-cart/commit/8a5b75711a3160f259228bc4bfa3dc09684bf76a))
+* :sparkles: improve the initial page ([018a352](https://github.com/neopromic/loop-cart/commit/018a352dc508de862959798735efaa6f1a30fb60))
+
 # [1.5.0](https://github.com/neopromic/loop-cart/compare/v1.4.0...v1.5.0) (2024-11-02)
 
 
