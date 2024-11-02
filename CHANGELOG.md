@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/neopromic/loop-cart/compare/v1.4.0...v1.5.0) (2024-11-02)
+
+
+### Features
+
+* add new conventional commits scope ([9821214](https://github.com/neopromic/loop-cart/commit/9821214d385d8cc54692075ab777501342391d88))
+* **translations:** :sparkles: add new translations to app ([b1aa56e](https://github.com/neopromic/loop-cart/commit/b1aa56ec7209657eb1299291918cca67141a2f3d))
+
 # [1.4.0](https://github.com/neopromic/loop-cart/compare/v1.3.0...v1.4.0) (2024-11-01)
 
 
