@@ -5,7 +5,7 @@ const localePrefix: LocalePrefix = 'as-needed';
 // FIXME: Update this configuration file based on your project information
 export const AppConfig = {
   name: 'LoopCart',
-  locales: ['en', 'pt-br'],
+  locales: ['en', 'pt-br', 'zh', 'vi', 'pt', 'pl', 'ja', 'it'],
   defaultLocale: 'pt-br',
   localePrefix,
 };
