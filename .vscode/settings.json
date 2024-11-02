@@ -57,5 +57,8 @@
     "pcss",
     "postcss",
     "github-actions-workflow"
+  ],
+  "conventionalCommits.scopes": [
+    "translations"
   ]
 }
